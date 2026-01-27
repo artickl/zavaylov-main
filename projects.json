@@ -1,0 +1,61 @@
+[
+  {
+    "id": "about",
+    "title": "About Artem Zavyalov",
+    "description": "Personal website and portfolio showcasing my work, skills, and experience. By day, I operate inside the system as a Senior Data Analyst at Delta School District #37, navigating data, reports, and hidden patterns. By night, I step outside the code as a curious DevOps developer, exploring projects ranging from natural phenomena and government solutions to websites, mobile apps, and ideas that bridge the digital and real worlds.",
+    "url": "https://artem.zavyalov.site",
+    "image": "images/about.jpg",
+    "tags": ["Personal", "Portfolio"],
+    "featured": true
+  },
+  {
+    "id": "u2ber",
+    "title": "U2BER YouTube Downloader",
+    "description": "Free online tool to convert YouTube videos to MP3, OGG, WAV, or download as video. Fast and easy-to-use audio extraction.",
+    "url": "https://u2ber.zavyalov.site/",
+    "image": "https://u2ber.zavyalov.site/u2ber-1200x630.png",
+    "tags": ["Web App", "Tool", "Audio"],
+    "stack": ["React", "FastAPI", "Python", "Docker"],
+    "featured": true
+  },
+  {
+    "id": "zeroshadow",
+    "title": "Zero Shadow Day",
+    "description": "Interactive visualization showing when and where Zero Shadow Day occurs - a phenomenon when the sun is directly overhead.",
+    "url": "http://zeroshadowday.zavyalov.site/",
+    "image": "https://zeroshadowday.zavyalov.site/lahaina-noon.jpg",
+    "tags": ["Visualization", "Education", "Science"],
+    "stack": ["JavaScript", "Nginx"],
+    "featured": true
+  },
+  {
+    "id": "clearcast",
+    "title": "ClearCast",
+    "description": "CleanCast uses local weather forecasts to tell you the perfect time to wash your car, avoid wasted washes, and get future access to local car wash deals.",
+    "url": "https://cleancast.online/",
+    "image": "https://cleancast.online/images/CleanCast-icon-1200x630.jpg",
+    "tags": ["Auto", "Weather", "Mobile App"],
+    "stack": ["ReactNative", "Expo", "Android"],
+    "featured": true
+  },
+  {
+    "id": "trailalert",
+    "title": "TrailAlert",
+    "description": "Check ticket availability for popular parks in British Colombia.",
+    "url": "https://trailalert.info/",
+    "image": "https://trailalert.info/assets/trailalert-home-meta-BRpY1nyS.jpg",
+    "tags": ["Outdoor", "Passes", "British Columbia"],
+    "stack": ["Vue", "NodeJs", "AWS"],
+    "featured": true
+  },
+  {
+    "id": "sitesense",
+    "title": "SiteSense",
+    "description": "Real-time construction site headcount and safety solution using BLE and LoRaWAN technologies.",
+    "url": "https://sitesense.ca/",
+    "image": "https://sitesense.ca/sitesense-meta.jpg",
+    "tags": ["IoT", "Safety", "Construction"],
+    "stack": ["React", "Express", "SQLite3", "Docker"],
+    "featured": false
+  }
+]

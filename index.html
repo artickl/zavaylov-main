@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Artem Zavyalov - Projects & Portfolio</title>
+    <meta name="title" content="Artem Zavyalov - Projects & Portfolio">
+    <meta name="description" content="Collection of web projects and applications by Artem Zavyalov including U2BER YouTube Downloader, Zero Shadow Day visualization, and more.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zavyalov.site/">
+    <meta property="og:title" content="Artem Zavyalov - Projects & Portfolio">
+    <meta property="og:description" content="Collection of web projects and applications by Artem Zavyalov.">
+    <meta property="og:image" content="https://zavyalov.site/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://zavyalov.site/">
+    <meta property="twitter:title" content="Artem Zavyalov - Projects & Portfolio">
+    <meta property="twitter:description" content="Collection of web projects and applications by Artem Zavyalov.">
+    <meta property="twitter:image" content="https://zavyalov.site/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/me.png">
+    <link rel="apple-touch-icon" href="images/me.png">
+    
+    <!-- Devicons for tech stack icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RTDKZSF9G7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-RTDKZSF9G7');
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Artem Zavyalov</h1>
+            <p class="tagline">Projects & Applications</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>Welcome</h2>
+            <p>Explore my collection of web projects, tools, and experiments.</p>
+        </section>
+
+        <section class="projects" id="projects-container">
+            <!-- Projects will be loaded here dynamically -->
+            <div class="loading">Loading projects...</div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Artem Zavyalov. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
