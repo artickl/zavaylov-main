@@ -6,32 +6,32 @@
     "url": "https://artem.zavyalov.site",
     "image": "images/about.jpg",
     "tags": ["Personal", "Portfolio"],
-    "featured": true
+    "featured": false
   },
   {
     "id": "u2ber",
-    "title": "U2BER YouTube Downloader",
+    "title": "U2BER",
     "description": "Free online tool to convert YouTube videos to MP3, OGG, WAV, or download as video. Fast and easy-to-use audio extraction.",
     "url": "https://u2ber.zavyalov.site/",
     "image": "https://u2ber.zavyalov.site/u2ber-1200x630.png",
     "tags": ["Web App", "Tool", "Audio"],
     "stack": ["React", "FastAPI", "Python", "Docker"],
-    "featured": true
+    "featured": false
   },
   {
     "id": "zeroshadow",
-    "title": "Zero Shadow Day",
+    "title": "ZeroShadowDay",
     "description": "Interactive visualization showing when and where Zero Shadow Day occurs - a phenomenon when the sun is directly overhead.",
     "url": "http://zeroshadowday.zavyalov.site/",
     "image": "https://zeroshadowday.zavyalov.site/lahaina-noon.jpg",
     "tags": ["Visualization", "Education", "Science"],
     "stack": ["JavaScript", "Nginx"],
-    "featured": true
+    "featured": false
   },
   {
     "id": "clearcast",
     "title": "ClearCast",
-    "description": "CleanCast uses local weather forecasts to tell you the perfect time to wash your car, avoid wasted washes, and get future access to local car wash deals.",
+    "description": "CleanCast helps you wash your car at the perfect time by checking the local weather forecast. Instead of wasting a fresh wash before rain, CleanCast analyzes upcoming conditions to notify you when it's the best window to get your car cleaned. The app remembers your last wash, includes a 'dirty car' override, and will soon connect you with local car wash deals and discounts.",
     "url": "https://cleancast.online/",
     "image": "https://cleancast.online/images/CleanCast-icon-1200x630.jpg",
     "tags": ["Auto", "Weather", "Mobile App"],
@@ -41,21 +41,31 @@
   {
     "id": "trailalert",
     "title": "TrailAlert",
-    "description": "Check ticket availability for popular parks in British Columbia.",
+    "description": "Check ticket availability for popular parks in British Columbia. It monitors park pass availability and instantly notifies you when spots open up, giving hikers a better chance to book permits for high-demand trails.",
     "url": "https://trailalert.info/",
     "image": "https://trailalert.info/assets/trailalert-home-meta-BRpY1nyS.jpg",
     "tags": ["Outdoor", "Passes", "British Columbia"],
     "stack": ["Vue", "NodeJs", "AWS"],
-    "featured": true
+    "featured": false
   },
   {
     "id": "sitesense",
     "title": "SiteSense",
-    "description": "Real-time construction site headcount and safety solution using BLE and LoRaWAN technologies.",
+    "description": "Real-Time Construction Site Intelligence. Know exactly who's on construction site, which floor they're on, and which company they work for. Service is powered by BLE tags and LoRaWAN connectivity.",
     "url": "https://sitesense.ca/",
     "image": "https://sitesense.ca/sitesense-meta.jpg",
     "tags": ["IoT", "Safety", "Construction"],
     "stack": ["React", "Express", "SQLite3", "Docker"],
+    "featured": false
+  },
+  {
+    "id": "ipservice",
+    "title": "IPAddressChecker",
+    "description": "A lightweight public service that returns your current public IP address in a simple, script-friendly format. It's designed for automation, monitoring, and quick checks, making it ideal for use in shell scripts, cron jobs, CI/CD pipelines, and curl requests. No tracking, no ads, just a fast and reliable way to get your IP.",
+    "url": "https://ip.zavyalov.site/",
+    "image": "./images/ipservice.png",
+    "tags": ["Network", "Tools"],
+    "stack": ["Nginx"],
     "featured": false
   }
 ]

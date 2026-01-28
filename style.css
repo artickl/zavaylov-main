@@ -148,17 +148,6 @@ main {
     position: relative;
 }
 
-.intro::before {
-    content: '>';
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -30px;
-    font-size: 2rem;
-    color: var(--primary);
-    animation: blink 1s infinite;
-}
-
 @keyframes blink {
     0%, 49% { opacity: 1; }
     50%, 100% { opacity: 0; }
@@ -173,14 +162,27 @@ main {
     letter-spacing: 0.1em;
 }
 
+/*.intro::before {
+    content: '>';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+    font-size: 2rem;
+    color: var(--primary);
+    animation: blink 1s infinite;
+}*/
+
 .intro h2::before {
-    content: '[ ';
+    content: '$ ';
     color: var(--secondary);
 }
 
 .intro h2::after {
-    content: ' ]';
+    content: ' _';
     color: var(--secondary);
+    animation: blink 1s infinite;
+    transform: translateX(-50%);
 }
 
 .intro p {
