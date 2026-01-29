@@ -4,7 +4,7 @@
     "title": "About Artem Zavyalov",
     "description": "Personal website and portfolio showcasing my work, skills, and experience. By day, I operate inside the system as a Senior Data Analyst at Delta School District #37, navigating data, reports, and hidden patterns. By night, I step outside the code as a curious DevOps developer, exploring projects ranging from natural phenomena and government solutions to websites, mobile apps, and ideas that bridge the digital and real worlds.",
     "url": "https://artem.zavyalov.site",
-    "image": "images/about.jpg",
+    "image": "",
     "tags": ["Personal", "Portfolio"],
     "featured": false
   },
