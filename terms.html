@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Terms of Service - Artem Zavyalov</title>
+    <meta name="description" content="Terms of Service for Artem Zavyalov projects and applications.">
+
+    <link rel="icon" type="image/png" href="images/me-transparent.png">
+    <link rel="apple-touch-icon" href="images/me-transparent.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RTDKZSF9G7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RTDKZSF9G7');
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Artem Zavyalov</h1>
+            <p class="tagline">Terms of Service</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>Terms of Service</h2>
+            <p>Embedded Google Doc version for easy reading.</p>
+            <a class="page-link" href="index.html">Back to Home</a>
+        </section>
+
+        <section class="doc-embed" aria-label="Terms of Service document">
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vQFbGv5HtL0KkSSFJmmFiMO7NYLIngngBjmy7cQ8dr7Zch1Qv0_xMVZ-juW65kBO84SIeLgasjxVZk9/pub?embedded=true"></iframe>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Artem Zavyalov. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const yearSpan = document.getElementById('year');
+        if (yearSpan) {
+            yearSpan.textContent = new Date().getFullYear();
+        }
+    </script>
+</body>
+</html>
