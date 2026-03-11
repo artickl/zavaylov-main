@@ -9,8 +9,8 @@
     "featured": false
   },
   {
-    "id": "clearcast",
-    "title": "ClearCast",
+    "id": "cleancast",
+    "title": "CleanCast",
     "description": "CleanCast helps you wash your car at the perfect time by checking the local weather forecast. Instead of wasting a fresh wash before rain, CleanCast analyzes upcoming conditions to notify you when it's the best window to get your car cleaned. The app remembers your last wash, includes a 'dirty car' override, and will soon connect you with local car wash deals and discounts.",
     "url": "https://cleancast.online/",
     "image": "https://cleancast.online/images/CleanCast-icon-1200x630.jpg",
@@ -45,7 +45,7 @@
     "url": "https://sitesense.ca/",
     "image": "https://sitesense.ca/sitesense-meta.jpg",
     "tags": ["IoT", "Safety", "Construction"],
-    "stack": ["React", "Express", "SQLite3", "Docker"],
+    "stack": ["React", "Express", "PostgreSQL", "Docker", "ChirpStack", "BLE", "LoRaWAN"],
     "featured": false
   },
   {
