@@ -39,11 +39,11 @@
     "featured": false
   },
   {
-    "id": "sitesense",
-    "title": "SiteSense",
+    "id": "crewsense",
+    "title": "CrewSense",
     "description": "Real-Time Construction Site Intelligence. Know exactly who's on construction site, which floor they're on, and which company they work for. Service is powered by BLE tags and LoRaWAN connectivity.",
-    "url": "https://sitesense.ca/",
-    "image": "https://sitesense.ca/sitesense-meta.jpg",
+    "url": "https://crewsense.ca/",
+    "image": "https://crewsense.ca/crewsense-meta.jpg",
     "tags": ["IoT", "Safety", "Construction"],
     "stack": ["React", "Express", "PostgreSQL", "Docker", "ChirpStack", "BLE", "LoRaWAN"],
     "featured": false
