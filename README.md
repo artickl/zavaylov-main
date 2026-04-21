@@ -15,7 +15,7 @@
 > **Senior Data Analyst** by day | **DevOps Developer** by night  
 > Building digital solutions that bridge data, science, and user experience
 
-🌐 **[Visit Portfolio →](https://zavyalov.site)**
+🌐 **[Visit Portfolio →](https://projects.zavyalov.site)**
 
 ---
 
@@ -27,25 +27,35 @@ I believe in building things that matter - whether it's a tool to simplify every
 
 ## 🚀 Featured Projects
 
-### [U2BER](https://u2ber.zavyalov.site/) - YouTube Downloader
-Free online tool to convert YouTube videos to MP3, OGG, WAV, or download as video. Fast and easy-to-use audio extraction.
+### [CleanCast](https://cleancast.online/)
+CleanCast helps you wash your car at the perfect time by checking the local weather forecast. Instead of wasting a fresh wash before rain, CleanCast analyzes upcoming conditions to notify you when it's the best window to get your car cleaned. The app remembers your last wash, includes a 'dirty car' override, and will soon connect you with local car wash deals and discounts.
 
-**Stack:** React • FastAPI • Python • Docker
+**Stack:** ReactNative • Expo • Android
 
-### [Zero Shadow Day](http://zeroshadowday.zavyalov.site/)
+### [ZeroShadowDay](http://zeroshadowday.zavyalov.site/)
 Interactive visualization showing when and where Zero Shadow Day occurs - a phenomenon when the sun is directly overhead.
 
 **Stack:** JavaScript • Nginx
 
-### [ClearCast](https://cleancast.online/)
-CleanCast uses local weather forecasts to tell you the perfect time to wash your car, avoid wasted washes, and get future access to local car wash deals.
+### [TrailAlert](https://trailalert.info/)
+Check ticket availability for popular parks in British Columbia. It monitors park pass availability and instantly notifies you when spots open up, giving hikers a better chance to book permits for high-demand trails.
 
-**Stack:** React Native • Expo • Android
+**Stack:** Vue • NodeJs • AWS
 
-### [SiteSense](https://sitesense.ca/)
-Government service platform providing digital solutions for public sector organizations.
+### [CrewSense](https://crewsense.ca/)
+Real-Time Construction Site Intelligence. Know exactly who's on construction site, which floor they're on, and which company they work for. Service is powered by BLE tags and LoRaWAN connectivity.
 
-**Stack:** Next.js • PostgreSQL • Google Cloud Platform
+**Stack:** React • Express • PostgreSQL • Docker • ChirpStack • BLE • LoRaWAN
+
+### [U2BER](https://u2ber.zavyalov.site/)
+Free online tool to convert YouTube videos to MP3, OGG, WAV, or download as video. Fast and easy-to-use audio extraction.
+
+**Stack:** React • FastAPI • Python • Docker
+
+### [IPAddressChecker](https://ip.zavyalov.site/)
+A lightweight public service that returns your current public IP address in a simple, script-friendly format. It's designed for automation, monitoring, and quick checks, making it ideal for use in shell scripts, cron jobs, CI/CD pipelines, and curl requests. No tracking, no ads, just a fast and reliable way to get your IP.
+
+**Stack:** Nginx
 
 ---
 
@@ -53,19 +63,22 @@ Government service platform providing digital solutions for public sector organi
 
 ```javascript
 const skills = {
-  backend: ['Python', 'FastAPI', 'Node.js'],
-  frontend: ['React', 'Next.js', 'React Native'],
-  devops: ['Docker', 'Nginx', 'PM2', 'GCP'],
-  data: ['PostgreSQL', 'Analytics', 'Visualization'],
+  languages: ['JavaScript', 'Python'],
+  frameworks: ['Express', 'FastAPI', 'Next.js', 'React', 'React Native', 'Vue'],
+  platforms: ['Android', 'Expo', 'Node.js'],
+  databases: ['PostgreSQL'],
+  devops: ['AWS', 'Docker', 'GCP', 'Nginx', 'PM2'],
+  iot: ['BLE', 'ChirpStack', 'LoRaWAN'],
+  data: ['Analytics', 'Visualization'],
   tools: ['Git', 'Linux', 'VS Code']
 };
 ```
 
 ## 📫 Connect
 
-- 🌐 Portfolio: [zavyalov.site](https://home.zavyalov.site)
-- 📧 Email: [artem@zavyalov.site](mailto:artem.zavyalov@gmail.com)
-- 💼 Personal Site: [artem.zavyalov.site](https://artem.zavyalov.site)
+- 🌐 Portfolio: [https://projects.zavyalov.site](https://projects.zavyalov.site)
+- 📧 Email: [mailto:artem.zavyalov@gmail.com](mailto:artem.zavyalov@gmail.com)
+- 💼 Personal Site: [https://artem.zavyalov.site](https://artem.zavyalov.site)
 
 ---
 
